@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChoixDeLaVille">
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="117dp">
+
+        <RadioButton
+            android:id="@+id/radio_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="changerPage"
+            android:text="Longueuil" />
+
+        <RadioButton
+            android:id="@+id/radio_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="changerPageRepentigny"
+            android:text="Repentigny" />
+
+    </RadioGroup>
+
+<TextView
+    android:id="@+id/text_view_selected"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/radioGroup"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="27dp"
+    android:text="Ville Choisie: "
+    android:textSize="20sp" />
+
+<Button
+    android:id="@+id/button_apply"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/text_view_selected"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="37dp"
+    android:text="Confirmer" />
+
+</RelativeLayout>

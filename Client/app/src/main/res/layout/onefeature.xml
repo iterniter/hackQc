@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_weight="0.05"
+                android:fontFamily="casual"
+                android:padding="5dp"
+                android:text="Features"
+                android:textColor="#000"
+                android:textSize="22sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_weight="0.05"
+                android:fontFamily="casual"
+                android:padding="5dp"
+                android:text="Type"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/typeFeatures"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_column="1"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.2"
+                android:fontFamily="casual"
+                android:padding="5dp"
+                android:textColor="#000" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_weight="0.05"
+                android:fontFamily="casual"
+                android:padding="5dp"
+                android:text="Geometry"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_weight="0.05"
+                android:fontFamily="casual"
+                android:padding="5dp"
+                android:text="Type"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/typeGeometry"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_column="1"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.2"
+                android:fontFamily="casual"
+                android:padding="5dp"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_weight="0.05"
+                android:fontFamily="casual"
+                android:padding="5dp"
+                android:text="Coordinates"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/textCoordinates"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_column="1"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.2"
+                android:fontFamily="casual"
+                android:padding="5dp"
+                android:textColor="#000" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_weight="0.05"
+                android:fontFamily="casual"
+                android:padding="5dp"
+                android:text="Properties"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_weight="0.05"
+                android:fontFamily="casual"
+                android:padding="5dp"
+                android:text="Espece"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/textEspece"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_column="1"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.2"
+                android:fontFamily="casual"
+                android:padding="5dp"
+                android:textColor="#000" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_weight="0.05"
+                android:fontFamily="casual"
+                android:padding="5dp"
+                android:text="Diametre Tronc"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/textDiametre"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_column="1"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.2"
+                android:fontFamily="casual"
+                android:padding="5dp"
+                android:textColor="#000" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="10dp"
+        android:text="Action Sur l'arbre"
+        />
+
+</LinearLayout>
+
+
